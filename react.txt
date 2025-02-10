@@ -1,0 +1,100 @@
+PROPS IN React
+> props stands for properties
+> props are used to send data from one component to another component.
+> props are uni-direction.
+> parent to child not from child to parent
+> pro are nothing but a object
+> props are immutable (read-only)
+
+day - 14
+state is uded to store the the in the same component and updates the data in the same componet
+> state are mutable() (which means state can be read() and write)
+
+Syntax : 
+let [initial-value , function] = useaState(initial-value)
+
+(array distruture)
+
+
+
+
+# STYLES IN REACT :
+
+WAYS OF PROVIDING STYLES IN REACT ;
+
+1) in-line WAYS
+2) globally css
+3) External way (important)
+
+DAY-17
+
+# forms in react
+> uses useaState and 
+controlled 
+>uses useaState and onchange event to fect data from the form
+
+uncontrollled
+> uncontrolled useRef hook to fetch data from the form
+
+#Ways of using styles in react
+> ref stands for reference
+> useRef hook used in un-controlled form.
+> useRef is having a keyword called ref keyword
+useRef is having a property called ref current
+
+
+#note : useRef will breturn an object that object consists of current property
+
+Syntax:
+import {useRef} from 'react"
+
+let/var/const identifier = useRTef(initial-value)
+
+#lLIST AND KEYS IN REACT
+> list is used to iterate an array of object using map()  method
+> kays are used to keep track of an element,by using keys we can understand which element is created , updated ,deleted
+
+
+# how to avoid props drilliong
+ 1) useContext hook
+ 2)HOC (higher order component)
+ 3)Redux
+
+ useContext hook in react (important)
+ ------------------------------------
+ useContext hook in react (important)
+-------------------------------------
+-->used to pass/share data from one component to multiple componentwithout pass an props
+--> it is used to avoid props drilling.
+
+syntax:
+step 1: creatw a context and export it
+import React from 'react'
+
+export var/let/const identifier name = React.createContext()
+
+step 2: use provider to pass an value.
+
+<identifier- name.provider value={}>
+<child component/>
+</identifier-name.provider>
+</identifier-name.provider>
+
+Step 3:- use consumer value given by provider.
+
+<identifier-name.consumer>
+{
+  cbf
+}
+</identifer-name.consumer>
+
+
+
+
+
+
+
+
+
+
+ 
